@@ -1,4 +1,4 @@
-# Pet.io
+# Pets.io
 Pet website
 
 idea behind this
