@@ -20,3 +20,6 @@ backend/
 |-- userHandler.js
 |-- package.json
 |-- package-lock.json
+
+
+Running webserver node app.js
