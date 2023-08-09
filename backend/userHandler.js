@@ -1,13 +1,17 @@
-const express = require('express');
-const router = express.Router();
-const User = require('./models/user'); // Assuming you have a User model
+// userHandler.js
+const users = [];
 
-router.post('/signup', async (req, res) => {
-  // Handle user registration logic here
-});
+function createUser(req, res) {
+  const { username, email, password, petname, breed } = req.body;
 
-router.post('/login', async (req, res) => {
-  // Handle user login logic here
-});
+  if (!username || !email || !password || !petname || !breed) {
+    return res.status(400).json({ message: 'All fields are required' });
+  }
 
-module.exports = router;
+  // Simulate user creation (in-memory storage)
+  users.push({ username, email, password, petname, breed });
+
+  res.status(201).json({ message: 'User created successfully' });
+}
+
+module.exports = { createUser };

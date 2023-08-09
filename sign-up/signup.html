@@ -61,8 +61,10 @@
 
       if (userCreated) {
         // Redirect to dashboard or show success message
+        window.location.href = 'dashboard.html';
       } else {
         // Display error message to user if needed
+        alert('User creation failed.');
       }
     });
 
@@ -78,4 +80,3 @@
   </script>
 </body>
 </html>
-
