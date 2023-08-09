@@ -1,0 +1,31 @@
+├── main.html
+├── main.css
+├── README.md
+├── text.txt
+├── .gitattributes
+├── assets/
+│   ├── images/
+│   ├── styles/
+│   ├── scripts/
+├── sign-in/
+│   ├── index.html
+│   ├── signin.css
+│   ├── signin.js
+├── sign-up/
+│   ├── index.html
+│   ├── signup.css
+│   ├── signup.js
+├── dashboard/
+│   ├── index.html
+│   ├── dashboard.css
+│   ├── dashboard.js
+├── backend/
+│   ├── node_modules/
+│   ├── app.js
+│   ├── db.js
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── userHandler.js
+├── dashboard/
+│   ├── userdata/
+├── Junk/
