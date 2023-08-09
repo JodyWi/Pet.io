@@ -6,4 +6,17 @@ idea behind this
 Eg add my dog to pet.io 
 web3 based
 health and history
-comments must update automaticly 
+
+
+
+Using main.html 
+
+adding backend folder called database
+
+backend/
+|-- node_modules/
+|-- app.js
+|-- db.js
+|-- userHandler.js
+|-- package.json
+|-- package-lock.json
